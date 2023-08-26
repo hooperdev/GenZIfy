@@ -108,7 +108,7 @@ h2 {
     z-index: 0;
     height: 1500px;
     overflow: overlay;
-    display: grid;
+    display: none;
 
 }
 
