@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Feed Your Short Attention Span</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="SegmentedControl.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Feed Your <span class="gradient">Short Attention</span> Span</h1>
+        <h2>Get a text to speech video with Gen Z entertainment in the background!</h2>
+        <div class="textcontainer">
+            <textarea class="textbox" id="maintextbox" placeholder="Paste text here that you don't want to read."></textarea>
+            <div class="video-settings">
+                <div class="segmented-control-holder">
+                <div class="segmented-control">
+                    <input type="radio" id="option1" name="video-select" checked>
+                    <label for="option1">Minecraft Parkour</label>
+
+                    <input type="radio" id="option2" name="video-select">
+                    <label for="option2">Subway Surfers</label>
+                    <input type="radio" id="option3" name="video-select">
+                    <label for="option3">GTA Cars</label>
+
+
+                    <input type="radio" id="option4" name="video-select">
+                    <label for="option4">Baking</label>
+                    
+                </div>
+            </div>
+                <button class="submit-button" onclick="genzify()">Gen Z-Ify</button>    
+            </div>
+        </div>
+    </div>
+    <div class="black-section" id="video-area">
+        <div class="overlay">
+        <div class="text-block">
+            <h3 id="overlay-text"></h3>
+          </div>
+        </div>
+        <div class="video-wrapper">
+            <div id="video"></div>
+        </div>
+       
+        
+    </div>
+</body>
+
+</html>
